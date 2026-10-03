@@ -26,9 +26,18 @@
 
 ## 安装
 
+**方式一：一键安装（推荐）**
+
 1. 浏览器安装 [Tampermonkey](https://www.tampermonkey.net/) 扩展
-2. Tampermonkey 图标 → 「添加新脚本」→ 全选删除，粘贴 [`lixinger-terminal.user.js`](lixinger-terminal.user.js) 全部内容 → `Ctrl+S` 保存
-3. 打开 [www.lixinger.com](https://www.lixinger.com)，左侧出现「理杏仁 | 终端」侧边栏即成功
+2. 点击安装链接，Tampermonkey 会自动弹出安装确认页，点「安装」：
+   - [GitHub 直链](https://raw.githubusercontent.com/mingming1248/lixinger-terminal/main/lixinger-terminal.user.js)
+   - [jsDelivr 镜像](https://cdn.jsdelivr.net/gh/mingming1248/lixinger-terminal@main/lixinger-terminal.user.js)（国内访问较慢时用这个）
+
+**方式二：手动安装**
+
+1. Tampermonkey 图标 → 「添加新脚本」→ 全选删除，粘贴 [`lixinger-terminal.user.js`](lixinger-terminal.user.js) 全部内容 → `Ctrl+S` 保存
+
+安装完成后打开 [www.lixinger.com](https://www.lixinger.com)，左侧出现「理杏仁 | 终端」侧边栏即成功。
 
 **注意**：新版 Chrome（Manifest V3）需要在 `chrome://extensions` 打开右上角「开发者模式」开关，Tampermonkey 才能执行用户脚本。
 
